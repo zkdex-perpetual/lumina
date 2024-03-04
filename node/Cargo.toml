@@ -88,7 +88,6 @@ wasm-bindgen-test = "0.3"
 
 [dev-dependencies]
 bytes = "1.4.0"
-celestia-rpc = { workspace = true, features = ["p2p"] }
 celestia-types = { workspace = true, features = ["test-utils"] }
 dotenvy = "0.15.7"
 # required to have path based dependency here to allow `cargo publish` to work
